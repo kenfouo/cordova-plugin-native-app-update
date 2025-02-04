@@ -34,7 +34,7 @@
     </platform>
 
     <platform name="android">
-        <source-file src="src/android/CDVAppUpdate.java" target-dir="src/com/apache/cordova/appupdate" />
+        <!-- <source-file src="src/android/CDVAppUpdate.java" target-dir="src/com/apache/cordova/appupdate" /> -->
 
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
         <config-file target="res/xml/config.xml" parent="/*">
